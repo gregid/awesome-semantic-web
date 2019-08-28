@@ -69,7 +69,8 @@ Looking for something but can't find it? Add it to the ["Does it exist"](https:/
 - [Linked Data](#linked-data)
 - [WebID](#webid)
 - [SHACL Implementations](#shacl-implementations)
-- [SKOS](#skos)
+- [SKOS Tools](#skos-tools)
+- [NLP](#nlp)
 - [Other Awesome](#other-awesome)
 - [Misc](#misc)
 
@@ -484,6 +485,7 @@ OS - OpenSource
 - [triplify](https://github.com/pebbie/triplify)
 - [pyrdb2rdf](https://github.com/nisavid/pyrdb2rdf)
 - [xsparql](https://www.w3.org/Submission/xsparql-language-specification/)
+- [Karma](https://github.com/usc-isi-i2/Web-Karma) - Transform data expressed in multiple data formats into RDF.
 
 ### Geo
 
@@ -570,6 +572,7 @@ OS - OpenSource
 ## Ontologies
 
 - [LOV](https://lov.linkeddata.es) - Linked Open Vocabularies. Portal / search tool for vocabularies.
+- [prefix.zazuko.com](https://prefix.zazuko.com) - Similar to LOV, but with a richer search interface
 
 ### World Wide Web Consortium (W3C)
 
@@ -669,6 +672,7 @@ OS - OpenSource
 
 - [dotNetRDF](https://github.com/dotnetrdf/dotnetrdf)
 - [RDFSharp](https://github.com/mdesalvo/RDFSharp)
+- [Rdf.Vocabularies](https://github.com/wikibus/rdf.vocabularies)
 
 ### Clojure
 
@@ -705,6 +709,7 @@ OS - OpenSource
 - [soarql-dl-api](https://github.com/protegeproject/sparql-dl-api) - A query engine for SPARQL-DL.
 - [nxparser](https://github.com/nxparser/nxparser) - Java parsers for different RDF serialisations + API + tools + JAX-RS integration.
 - [Eclipse Lyo](https://www.eclipse.org/lyo/)
+- [JB4JSON-LD](https://github.com/kbss-cvut/jb4jsonld), [JB4JSON-LD Jackson](https://github.com/kbss-cvut/jb4jsonld-jackson) - Java binding for JSON-LD (mapping POJO - JSON-LD).
 
 ### JavaScript
 
@@ -721,6 +726,7 @@ OS - OpenSource
 - [sparqlalgebrajs](https://github.com/joachimvh/SPARQLAlgebra.js) - SPARQL to SPARQL Algebra converter.
 - [RDForms](https://rdforms.org) - Construct form-based RDF editors in a web environment.
 - [graphy.js](https://github.com/blake-regalia/graphy.js) - A collection of RDF libraries for JavaScript developers with a focus on performance and usability.
+- [@zazuko/rdf-vocabularies](https://github.com/zazuko/rdf-vocabularies) - Library of common vocabularies
 
 ### Kotlin
 
@@ -973,7 +979,7 @@ OS - OpenSource
 - [pySHACL](https://github.com/RDFLib/pySHACL) - A Python validator for SHACL.
 - [rdf4j-shacl](http://docs.rdf4j.org/programming/#_validation_with_shacl)
 
-## SKOS
+## SKOS Tools
 
 - [iQvoc](https://github.com/innoq/iqvoc) - SKOS(-XL) Vocabulary Management System for the Semantic Web.
 - [Poolparty](https://www.poolparty.biz/skos-and-skos-xl) ($)
@@ -987,6 +993,14 @@ OS - OpenSource
 - [SKOS Play!](http://labs.sparna.fr/skos-play/about)
 - [skosapi](http://skosapi.sourceforge.net/)
 - [java-skos-api](https://github.com/simonjupp/java-skos-api)
+
+## NLP
+- [fred](http://wit.istc.cnr.it/stlab-tools/fred/#About) - a machine reader for the Semantic Web
+- [NIF](https://persistence.uni-leipzig.org/nlp2rdf/) NLP Interchange Format
+- [Lemon](https://lemon-model.net/) - The Lexicon Model for Ontologies
+- [Wordnet](https://wordnet.princeton.edu/) 
+- [PreMOn](http://premon.fbk.eu/ontology/vn) - Predicate Model for Ontologies (PreMOn) - VerbNet ontology module
+- [BabelNet](https://babelnet.org)
 
 ## Other Awesome
 
@@ -1038,7 +1052,8 @@ OS - OpenSource
 - [sesametools](https://github.com/joshsh/sesametools) - A collection of utilities for use with OpenRDF Sesame (as of recently, Eclipse RDF4J).
 - [DEER](https://github.com/dice-group/DEER) - RDF Dataset Enrichment Framework.
 - [levelgraph-jsonld](https://github.com/mcollina/levelgraph-jsonld) - The Object Document Mapper for LevelGraph based on JSON-LD
-- [owlapi](https://github.com/owlcs/owlapi) - The OWL API is a Java API for creating, manipulating and serialising OWL Ontologies.
+- [OWL-API](https://github.com/owlcs/owlapi) - The OWL API is a Java API for creating, manipulating and serialising OWL Ontologies.
+- [ONT-API](https://github.com/avicomp/ont-api) - a Jena based OWL API implementation.
 - [LODGrefine](https://github.com/sparkica/LODGrefine) - LOD-enabled Google Refine: linked open data related extensions included.
 - [stardog.js](https://github.com/stardog-union/stardog.js)
 - [stardog-groovy](https://github.com/stardog-union/stardog-groovy)
